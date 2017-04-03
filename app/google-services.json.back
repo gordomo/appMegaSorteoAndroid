@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "482286966532",
+    "firebase_url": "https://fir-megasorteo.firebaseio.com",
+    "project_id": "firebase-megasorteo",
+    "storage_bucket": "firebase-megasorteo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482286966532:android:364455bc5d23bfe3",
+        "android_client_info": {
+          "package_name": "com.vetasrl.appmegasorteo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482286966532-caft94cl07ea6oep68d1h99faviajp16.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "482286966532-ohgm63et9bj1rglrkqvm7e82pm5por9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZXu8XrwiNtm7p6wA_YxCUPZMDA4rb9_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1039001978188",
+    "firebase_url": "https://appmegasorteo.firebaseio.com",
+    "project_id": "appmegasorteo",
+    "storage_bucket": "appmegasorteo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039001978188:android:364455bc5d23bfe3",
+        "android_client_info": {
+          "package_name": "com.vetasrl.appmegasorteo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039001978188-coptnko3jm3raiefdvqkl80nvtn6cbs9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetasrl.appmegasorteo",
+            "certificate_hash": "90ea17365eaaa1b25586c87de23f1e5792a4fbf4"
+          }
+        },
+        {
+          "client_id": "1039001978188-sr2fv66k77jo2t6uco5094s4a028917j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR5Lanjuwuza_mz-b8ZHSldarsRq0IAI0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039001978188-sr2fv66k77jo2t6uco5094s4a028917j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

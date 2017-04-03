@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_en_vivo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo2"
+    tools:context="com.vetasrl.appmegasorteo.Noticia"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logobingo2"
+                android:id="@+id/logoBingoEnvivo" />
+
+            <!--<TextView-->
+                <!--android:text="Radio 2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/radio2text"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#fff"/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lineEnVivo1" />-->
+
+            <!--<WebView-->
+                <!--android:id="@+id/radio1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lienaEnvivo3" />-->
+
+            <!--<TextView-->
+                <!--android:text="Radio Regional"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/radioRegtext"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#fff"/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lineEnVivo4" />-->
+
+            <!--<WebView-->
+                <!--android:id="@+id/radio2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lienaEnvivo5" />-->
+
+            <TextView
+                android:text="Radio EME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioEmetext"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#fff"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/linea"
+                android:id="@+id/lineEnVivo6" />
+
+            <WebView
+                android:id="@+id/radio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/linea"
+                android:id="@+id/lienaEnvivo7" />
+
+            <!--&lt;!&ndash;&ndash;&gt;-->
+            <!--<TextView-->
+                <!--android:text="Radio Estilo"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/radioEstilotext"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#fff"/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lineEnVivo8" />-->
+
+            <!--<WebView-->
+                <!--android:id="@+id/radio4"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lienaEnvivo9" />-->
+            <!--&lt;!&ndash;&ndash;&gt;-->
+            <!--<TextView-->
+                <!--android:text="Radio Mahu"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/radioMahutext"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#fff"/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lineEnVivo10" />-->
+
+            <!--<WebView-->
+                <!--android:id="@+id/radio5"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lienaEnvivo11" />-->
+            <!--&lt;!&ndash;&ndash;&gt;-->
+
+            <TextView
+                android:text="Radio Contacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioContactotext"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#fff"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/linea"
+                android:id="@+id/lineEnVivo12" />
+
+            <WebView
+                android:id="@+id/radio6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/linea"
+                android:id="@+id/lienaEnvivo13" />
+            <!---->
+
+            <TextView
+                android:text="Radio Las Parejas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioLasparejastext"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#fff"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/linea"
+                android:id="@+id/lineEnVivo14" />
+
+            <WebView
+                android:id="@+id/radio7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/linea"
+                android:id="@+id/lienaEnvivo15" />
+
+            <!--<TextView-->
+                <!--android:text="Radio Multimedios"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/radioMultimediostext"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#fff"/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lineEnVivo16" />-->
+
+            <!--<WebView-->
+                <!--android:id="@+id/radio8"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lienaEnvivo17" />-->
+            <!--&ndash;&gt;-->
+            <!--<TextView-->
+                <!--android:text="Radio City"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/radioCitytext"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#fff"/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lineEnVivo18" />-->
+
+            <!--<WebView-->
+                <!--android:id="@+id/radio9"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--/>-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:srcCompat="@drawable/linea"-->
+                <!--android:id="@+id/lienaEnvivo19" />-->
+
+            <Button
+                android:text="Transmicion en Facebook"
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/facebook"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

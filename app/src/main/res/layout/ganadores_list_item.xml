@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <WebView
+        android:id="@+id/ganadorImg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/logopantalla2"/>
+
+    <TextView
+        android:id="@+id/tituloGanador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:text="titulo"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:id="@+id/subtituloGanador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_below="@+id/tituloGanador"
+        android:text="SubTitulo"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:id="@+id/textoGanador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtituloGanador"
+        android:layout_marginLeft="56dp"
+        android:text="Texto Ganador"
+        android:textColor="#fff"
+        android:textAppearance="?attr/textAppearanceListItem"
+        />
+
+    <TextView
+        android:id="@+id/ganadorId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textoGanador"
+        android:layout_below="@+id/textoGanador"
+        android:text="newId"
+        android:visibility="invisible"
+        />
+</RelativeLayout>
